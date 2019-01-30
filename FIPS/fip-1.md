@@ -136,7 +136,7 @@ Node performance is defined as:
 ## Token staking
 In the single-shard model, a validator must stake at least 0.2% of the total FTM supply (6,350,000 FTM) of their own tokens. This number, as well as many other network settings, will be subject to change via on-chain voting. They will also change when Sharding is introduced.
 
-##Block Rewards for Validators (Fees)
+## Block Rewards for Validators (Fees)
 
 In return for staking FTM, attesting to correct blocks, signing off on the validity of a block, and proposing blocks, validators will be rewarded in at least two ways:
 

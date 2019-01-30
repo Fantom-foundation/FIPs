@@ -44,6 +44,7 @@ Transaction costs will be expressed in terms of an internal accounting system ca
 FTG will operate in a similar manner to gas on the Ethereum network at a virtual machine level. There will be a cost associated with each op code executed by the register-based virtual machine (costs will be specified in future technical documents. For now Fantom will follow the Ethereum Virtual Machine (EVM) gas costs as specified in "Appendix G. Fee Schedule" of the Ethereum "Yellow Paper" as Fantom is currently using Golang and Rust Implementations of the EVM). The relationship between FTM and FTG is similar to the relationship between Wei and Gas in Ethereum:
 
 *FTM = FTG_price*FTG*
+
 Where:
 
 **FTM**: Fantom Token
@@ -132,7 +133,7 @@ Node performance is defined as:
 
 *Note: 50 nodes is a starting point so the network can scale safely and properly so users can monitor the network and make sure it is secure as the network grows.*
 
-## oken staking
+## Token staking
 In the single-shard model, a validator must stake at least 0.2% of the total FTM supply (6,350,000 FTM) of their own tokens. This number, as well as many other network settings, will be subject to change via on-chain voting. They will also change when Sharding is introduced.
 
 ##Block Rewards for Validators (Fees)

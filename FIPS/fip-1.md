@@ -121,7 +121,7 @@ This will be feature of smart contracts on the Fantom network, where a developer
 
 # Network validators
 
-##Number of validators
+## Number of validators
 
 In order to ensure a fast network, and also to limit costs, the system will favour the emergence of a reasonable number (50) of high-performance nodes as validators to begin with. The number of validators may grow over time depending on how many users decide to stake (given Fantom will be a permission-less network).
 
@@ -148,7 +148,7 @@ Because transaction prices will essentially be fixed, the key way for validators
 Here is a way that would allow users themselves to signal the need for higher transaction capacity. Suppose a user has the choice between staking tokens for transacting and staking tokens for validation (ignoring Dapp-based staking).
 When there is plenty of processing capacity, we would expect more of validation staking. But as demand for transactions grow, we could see a shift towards transaction staking. As transaction staking volume exceeds a certain level, this would trigger an increase of the baseline processing limit (equivalent to a block gas limit), which would become effective only when a large majority of nodes prove they have the necessary capacity. The advantage is that this would provide a clear and **visible** signal to the entire network to increase processing capacity. This might happen even before actual volume increases, as users increase their transaction staking in anticipation of increased future transaction volume (increased buying of FTG could also provide such a signal). Note that this will require a way to occasionally measure validator processing power.
 
-##Network security
+## Network security
 
 **Penalties**: validators will have a significant amount of FTM token staked, which will be at risk if malicious behaviour is identified. Penalties are necessary in a Proof of Stake system in order to disincentivize bad behaviour and avoid the **nothing-at-stake** problem, where, absent any penalties, a validator is incentivise to bet on every possible fork of the network, as there is no lost for doing so.
 

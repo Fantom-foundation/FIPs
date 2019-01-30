@@ -43,7 +43,7 @@ Transaction costs will be expressed in terms of an internal accounting system ca
 
 FTG will operate in a similar manner to gas on the Ethereum network at a virtual machine level. There will be a cost associated with each op code executed by the register-based virtual machine (costs will be specified in future technical documents. For now Fantom will follow the Ethereum Virtual Machine (EVM) gas costs as specified in "Appendix G. Fee Schedule" of the Ethereum "Yellow Paper" as Fantom is currently using Golang and Rust Implementations of the EVM). The relationship between FTM and FTG is similar to the relationship between Wei and Gas in Ethereum:
 
-*FTM = FTG_price*FTG*
+FTM = FTG_price*FTG
 
 Where:
 
